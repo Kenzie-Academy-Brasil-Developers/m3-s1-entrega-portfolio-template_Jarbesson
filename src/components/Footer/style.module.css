@@ -1,0 +1,57 @@
+.flexbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    gap: 10px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    margin-top: 63px;
+}
+
+.containerFirst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.875rem;
+}
+
+.containerSecond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5625rem;
+    padding: 0.625rem;
+    text-align: center;
+}
+
+.containerIcons{
+    display: flex;
+    gap: 0.9375rem;
+    margin-top: 1.1875rem;
+}
+
+.flexbox p {
+    line-height: 1.875rem;
+    padding: 0.3125rem;
+}
+
+
+
+@media(min-width:768px){
+    .flexbox {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        height: 11.875rem;
+    }
+
+    .containerFirst{
+        padding: 0;
+    align-items: flex-start;
+
+    }
+}
+

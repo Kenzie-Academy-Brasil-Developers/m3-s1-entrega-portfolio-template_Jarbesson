@@ -1,0 +1,23 @@
+.flexbox{
+    margin: 1.25rem;
+}
+
+.flexbox > h2{
+    margin-bottom: 1.25rem;
+}
+
+.flexbox > p{
+    line-height: 1.5625rem;
+}
+
+@media(min-width:768px){
+    .flexbox{
+        display: flex;
+        gap: 6.25rem;
+    }
+
+    .flexbox>p{
+        height: 9.375rem;
+        width: 38.4375rem;
+    }
+}

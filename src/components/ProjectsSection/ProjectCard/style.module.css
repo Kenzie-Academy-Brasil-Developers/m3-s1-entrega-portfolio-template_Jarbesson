@@ -1,0 +1,23 @@
+.container {
+    width: 27.4375rem;
+    height: 11.4375rem;
+    border-radius: 1.5625rem;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.50);
+    padding-top: 1rem;
+    padding-right: 1.3125rem;
+    padding-left: 2.0625rem;
+    padding-bottom: 1.25rem;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph{
+    margin-top: 1.0625rem;
+    margin-bottom: 2rem;
+}
+
+   
+

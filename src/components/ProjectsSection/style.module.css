@@ -1,0 +1,39 @@
+.flexbox {
+    width: 100%;
+    padding: 0 1.25rem;
+
+}
+
+.flexbox>h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.flexbox>div {
+    display: flex;
+    align-items: baseline;
+    gap: 1.25rem;
+    width: 100%;
+    border-radius: 1.25rem;
+
+
+}
+
+.containerProjects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media(min-width:768px) {
+
+    .flexbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+    }
+
+}

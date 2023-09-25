@@ -1,0 +1,17 @@
+:root{
+    --color-primary:#6880FF;
+    --color-primary-Hover:#7C91FF;
+
+    --color-black:#000000;
+    --color-white:#ffffff;
+
+    --font-primary:'Inter', sans-serif;
+}
+
+#root{background-color: var(--color-black);}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin:  0 auto;
+}

@@ -1,0 +1,44 @@
+.flexbox {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox > div{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1.25rem; 
+    margin-top: 3.125rem;
+}
+
+
+.flexbox > img{
+    max-width: 80%;
+    margin: 2.5rem;
+}
+
+
+.flexbox >button:hover{
+    background-color: black;
+}
+
+
+@media(min-width:768px){
+    .flexbox{
+        flex-direction: row;
+    }
+    h1{
+        font-size: 3.25rem !important; 
+    }
+   
+}
+
+@media(min-width:1024px){
+    h1{
+        font-size: 4.25rem !important; 
+    }
+}
